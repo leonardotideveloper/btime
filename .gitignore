@@ -1,0 +1,16 @@
+# Arquivos de compilação
+*.pyc
+*.pyo
+__pycache__/
+
+# Arquivos de ambiente
+.env
+env
+venv/
+.env.bak/
+
+# Arquivos de log
+*.log
+
+# Arquivos de saída
+*.out
