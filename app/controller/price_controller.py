@@ -5,7 +5,7 @@ from app.entities.price_actions import PriceActions
 from selenium.common.exceptions import TimeoutException
 from json import loads
 
-class CotacaoController:
+class PriceController:
     def __init__(self, driver):
         self.driver = driver
     @log_wrapper
