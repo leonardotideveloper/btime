@@ -20,7 +20,7 @@ Este script Python acessa o site da b3 e captura as informações das ações em
 1. **Clone o repositório:**
 
 ```bash```
-- git clone https://github.com/seu-usuario/seu-projeto.git
+- git clone https://github.com/leonardotideveloper/btime.git
 - cd seu-projeto
 
 2. **Crie e ative um ambiente virtual(opcional):**
