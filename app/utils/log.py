@@ -4,8 +4,6 @@ logging.basicConfig(filename='log.log', level=logging.INFO, format='%(asctime)s 
 logging.getLogger('requests').setLevel(logging.ERROR)
 logging.getLogger('seleniumwire').setLevel(logging.ERROR)
 
-# Restante do seu código
-
 def log_wrapper(func):
     def wrapper(*args, **kwargs):
         instance_name = args[0].__class__.__name__
